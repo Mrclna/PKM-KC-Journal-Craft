@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/darkGray">
+
+    <EditText
+        android:id="@+id/editTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textColorHint="@color/lightGray"
+        android:textSize="25sp"
+        android:textColor="@color/blueAccent"/>
+
+    <EditText
+        android:id="@+id/editContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Content"
+        android:textColorHint="@color/lightGray"
+        android:textSize="16sp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/saveEditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="@color/lightGray"
+        android:textColor="@color/white"/>
+</LinearLayout>

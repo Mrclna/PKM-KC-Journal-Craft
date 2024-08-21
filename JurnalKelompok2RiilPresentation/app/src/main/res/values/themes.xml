@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Jurnalkelompok2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        //<item name="colorPrimary">@color/blueAccent</item>
+        //<item name="colorOnPrimary">@color/white</item>
+        //<item name="colorSecondary">@color/lightGray</item>
+        //<item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.Jurnalkelompok2" parent="Base.Theme.Jurnalkelompok2" />
+</resources>

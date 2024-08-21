@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Journal Craft</string>
+    <string name="addButton">+</string>
+    <string name="title">Your Journey</string>
+</resources>
